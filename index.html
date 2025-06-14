@@ -5,8 +5,38 @@
     <link rel="icon" type="image/png" href="https://u.cubeupload.com/ello/costume61.png"
   </head>
   <body>
+    <script>
+      var licenseStuff = document.getElementById(license);
+      function copyLicense() {
+        navigator.clipboard.writeText(licenseStuff);
+      }
+    </script>
     <div style="padding-left:16px">
-      <h1>Scratch 1.4 Information!</h1>
+      <h1>Legal things</h1>
+      As required I will show you the license.<br />
+      <button onclick="copyLicense()">Copy License</button>
+      <div id="license"><pre>
+        Scratch
+
+Copyright (c) 2009 Massachusetts Institute of Technology
+
+Scratch is developed by the Lifelong Kindergarten group at the MIT Media Lab.
+See http://scratch.mit.edu
+
+The Scratch logo and the Scratch cat are trademarks of MIT.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and accompanying documentation and media files (the "Software") to distribute the Software, including the right to use, copy, publish, or distribute copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies of the Software.
+
+If the software is published or distributed, the following statement shall be displayed in a visible place on a website or on distribution media such as CDs:
+
+  Scratch is developed by the Lifelong Kindergarten group at the MIT Media Lab.
+  See http://scratch.mit.edu
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+      </pre></div>
+      <h2>Scratch 1.4 Information!</h2>
       <p>
         Scratch 1.4 is the newest of the Scratch 1.x line of Scratch versions<br />
         and released on July 2nd, 2009 (7-2-2009) and the official website is at <a href="https://scratch.mit.edu">https://scratch.mit.edu</a><br />
@@ -14,8 +44,10 @@
       </p>
 
       <h2>Scratch 1.4 Download</h2>
-      Ok, let's get to the point of the webpage.<br />
-      You can download the setup for my version from <a href="https://github.com/TAKE-THE-L/squeak-scratch-build/">this repository</a> or click <a href="https://take-the-l.github.io/squeak-scratch-build/installer.zip">this download link here</a> to download it.
+      <p>
+        Ok, let's get to the point of the webpage.<br />
+        You can download the setup for my version from <a href="https://github.com/TAKE-THE-L/squeak-scratch-build/">this repository</a> or click <a href="https://take-the-l.github.io/squeak-scratch-build/installer.zip">this download link here</a> to download it.
+      </p>
     </div>
   </body>
 </html>
